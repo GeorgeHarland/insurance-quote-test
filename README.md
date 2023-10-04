@@ -1,15 +1,18 @@
 # Insurance Quote Tech Test
 
-...some text
-...next.js, ts, styled components
-...next setup -> app router -> file structure -> template -> components
-...import * as S - using next/image, mabye other bits. so clarity to s-c
-,,,kept image dimensions to clean divisions on both sides (2)?
-...accessibility - no keyboard shortcuts, semantic in styled?, ARIA?
-...global styles -> others in /styles/index.ts... breakpoints, colors, would have done typography
-.../data - as if cms? passed as props - header. not in others
-... .main class
-...have an image function - would see if data could be added to json for just a slug for img src
+A quick tech test built with Next.js, TypeScript, Styled Components.
+
+File structure includes /templates for the page template, /styles for colors/breakpoints/globalstyles, /data for page data (not everything uses this but that's the goal).
+
+## Future Work
+
+I spent a few hours on the setup and initial components, but the next steps would be:
+- Add a useContext to pull data (in useStates) between pages
+- Make the site much more responsive with the breakpoints in /styles/index.ts, and reducing columns to rows
+- Have data flowing through the pages to the components (flexible for CMS)
+- Add typography to styles/index.ts to standardize fontSizes
+- Set up Next.js for styled components so page.module.css can be removed
+- ternarys to check for 'Covered' and if so, pass gold to styled component, otherwise use blue
 
 ## Setup
 
