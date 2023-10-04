@@ -2,7 +2,7 @@
 
 A quick tech test built with Next.js, TypeScript, Styled Components.
 
-File structure includes /templates for the page template, /styles for colors/breakpoints/globalstyles, /data for page data (not everything uses this but that's the goal).
+File structure includes /templates for the page template, /styles for colors/breakpoints/globalstyles, /data for page data (not everything uses this but that's the goal)
 
 ## Future Work
 
