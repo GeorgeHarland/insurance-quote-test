@@ -1,3 +1,5 @@
+'use client'
+
 import WebsiteHeader from "@/components/websiteHeader";
 import headerData from './../data/header.json'
 
