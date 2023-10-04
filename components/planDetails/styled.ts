@@ -17,50 +17,50 @@ export const Container = styled.div`
   @media (max-width: 580px) {
     flex-direction: column;
   }
-`
+`;
 
 export const HeaderRow = styled.div`
   width: 100%;
   padding-bottom: 2rem;
   border-bottom: 3px solid ${colors.backgroundGrey};
-`
+`;
 
 export const CenterRow = styled.div`
   display: flex;
   width: 100%;
   margin-top: 4rem;
-`
+`;
 
 export const TextColumn = styled.div`
   display: flex;
   width: 100%;
   gap: 0.6rem;
   flex-direction: column;
-`
+`;
 
 export const TextRow = styled.div`
   display: flex;
   justify-content: space-between;
-  width: 100%;  
-`
+  width: 100%;
+`;
 
-export const Footer = styled.div``
+export const Footer = styled.div``;
 
 export const HeaderText = styled.h2`
   @media (max-width: 790px) {
     font-size: 1rem;
   }
-`
+`;
 
 export const BillText = styled.p`
   @media (max-width: 790px) {
     font-size: 0.8rem;
   }
-`
+`;
 
 export const CoveredText = styled.p`
   color: ${colors.gold};
   @media (max-width: 790px) {
     font-size: 0.8rem;
   }
-`
+`;

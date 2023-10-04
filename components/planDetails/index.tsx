@@ -1,7 +1,7 @@
-'use client'
+'use client';
 
 import Image from 'next/image';
-import * as S from './styled'
+import * as S from './styled';
 import StyledButton from '../styledButton';
 
 type PlanDetailsProps = {
@@ -15,14 +15,14 @@ type PlanDetailsProps = {
   tripInterruption: number;
   cancelForCovid: string;
   policyDetail: string;
-}
+};
 
-const PlanDetails = ({...plan}: PlanDetailsProps) => (
+const PlanDetails = ({ ...plan }: PlanDetailsProps) => (
   <S.Container>
     <S.HeaderRow>
-      <Image src='' alt='' />
+      <Image src="" alt="" />
       <S.HeaderText>{`${plan.providerName}: ${plan.planName}`}</S.HeaderText>
-    </S.HeaderRow>  
+    </S.HeaderRow>
     <S.CenterRow>
       <S.TextColumn>
         <S.TextRow>
@@ -34,10 +34,10 @@ const PlanDetails = ({...plan}: PlanDetailsProps) => (
           <S.BillText>{`$${plan.tripCancellation}`}</S.BillText>
         </S.TextRow>
       </S.TextColumn>
-      <StyledButton label='Purchase' link='/purchase-details'/>
-    </S.CenterRow>  
-    <S.Footer></S.Footer>  
+      <StyledButton label="Purchase" link="/purchase-details" />
+    </S.CenterRow>
+    <S.Footer></S.Footer>
   </S.Container>
-)
+);
 
 export default PlanDetails;

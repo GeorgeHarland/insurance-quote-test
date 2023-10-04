@@ -1,3 +1,3 @@
 export const getImage = (image: string) => {
-  return `/images/${image}.png`
-}
+  return `/images/${image}.png`;
+};

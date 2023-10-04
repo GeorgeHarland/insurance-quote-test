@@ -6,10 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier": "prettier --write .",
+    "preppush": "npm run prettier && npm run lint"
   },
   "dependencies": {
     "next": "13.5.4",
+    "prettier": "^3.0.3",
     "react": "^18",
     "react-dom": "^18",
     "styled-components": "^6.0.8"

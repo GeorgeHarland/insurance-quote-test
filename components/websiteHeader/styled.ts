@@ -15,15 +15,15 @@ export const HeaderContainer = styled.div`
   @media (max-width: 580px) {
     flex-direction: column;
   }
-`
+`;
 
 export const Spacer = styled.div`
   flex: 1;
-`
+`;
 
 export const ImageWrapper = styled.div`
   flex: 1;
-`
+`;
 
 export const TextWrapper = styled.div`
   display: flex;
@@ -31,17 +31,17 @@ export const TextWrapper = styled.div`
   flex: 1;
   align-items: flex-end;
   margin-bottom: 2.5rem;
-`
+`;
 
 export const UpperRightText = styled.h3`
   margin-bottom: 0.3rem;
   @media (max-width: 790px) {
     font-size: 1rem;
   }
-`
+`;
 
 export const LowerRightText = styled.p`
   @media (max-width: 790px) {
     font-size: 0.8rem;
   }
-`
+`;

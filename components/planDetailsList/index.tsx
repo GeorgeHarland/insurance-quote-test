@@ -1,8 +1,8 @@
-'use client'
+'use client';
 
 import PlanDetails from '../planDetails';
-import * as S from './styled'
-import plansData from './../../data/plans.json'
+import * as S from './styled';
+import plansData from './../../data/plans.json';
 
 const PlanDetailsList = () => (
   <S.RowContainer>
@@ -10,6 +10,6 @@ const PlanDetailsList = () => (
       <PlanDetails key={index} {...plan} />
     ))}
   </S.RowContainer>
-)
+);
 
 export default PlanDetailsList;

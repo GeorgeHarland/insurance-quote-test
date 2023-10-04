@@ -1,18 +1,16 @@
-'use client'
+'use client';
 
-import Link from 'next/link'
-import * as S from './styled'
+import Link from 'next/link';
+import * as S from './styled';
 
 type ButtonProps = {
   label: string;
   link: string;
-}
+};
 
 const StyledButton = ({ label, link }: ButtonProps) => (
   <Link href={link}>
-    <S.Button>
-      {label}
-    </S.Button>
+    <S.Button>{label}</S.Button>
   </Link>
 );
 

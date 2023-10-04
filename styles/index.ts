@@ -1,6 +1,6 @@
-'use client'
+'use client';
 
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
 export const breakpoints = {
   siteWidth: '1900px',
@@ -10,7 +10,7 @@ export const breakpoints = {
   bigtablet: '900px',
   tablet: '768px',
   mobile: '480px',
-}
+};
 
 export const colors = {
   backgroundGrey: '#eeeeee',
@@ -18,8 +18,8 @@ export const colors = {
   goldBorder: '#f7da7a',
   gold: '#f2c12a',
   tan: '#fae6a9',
-  white: '#ffffff'
-}
+  white: '#ffffff',
+};
 
 export const GlobalStyle = createGlobalStyle`
   body {
@@ -42,4 +42,4 @@ export const GlobalStyle = createGlobalStyle`
   * {
     box-sizing: border-box;
   }
-`
+`;

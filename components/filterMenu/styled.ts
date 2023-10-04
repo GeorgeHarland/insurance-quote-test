@@ -15,17 +15,17 @@ export const Container = styled.div`
   @media (max-width: 580px) {
     flex-direction: column;
   }
-`
+`;
 
 export const UpperRightText = styled.h3`
   margin-bottom: 0.3rem;
   @media (max-width: 790px) {
     font-size: 1rem;
   }
-`
+`;
 
 export const LowerRightText = styled.p`
   @media (max-width: 790px) {
     font-size: 0.8rem;
   }
-`
+`;

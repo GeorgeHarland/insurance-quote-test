@@ -14,4 +14,4 @@ export const RowContainer = styled.div`
   @media (max-width: 580px) {
     flex-direction: column;
   }
-`
+`;

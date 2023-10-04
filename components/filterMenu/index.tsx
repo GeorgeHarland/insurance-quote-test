@@ -1,9 +1,7 @@
-'use client'
+'use client';
 
-import * as S from './styled'
+import * as S from './styled';
 
-const FilterMenu = () => (
-  <S.Container></S.Container>
-)
+const FilterMenu = () => <S.Container></S.Container>;
 
 export default FilterMenu;

@@ -1,10 +1,10 @@
-'use client'
+'use client';
 
-import SearchSummary from '@/components/searchSummary'
-import styles from './page.module.css'
-import * as S from './styled'
-import FilterMenu from '@/components/filterMenu'
-import PlanDetailsList from '@/components/planDetailsList'
+import SearchSummary from '@/components/searchSummary';
+import styles from './page.module.css';
+import * as S from './styled';
+import FilterMenu from '@/components/filterMenu';
+import PlanDetailsList from '@/components/planDetailsList';
 
 export default function Home() {
   return (
@@ -15,5 +15,5 @@ export default function Home() {
         <PlanDetailsList />
       </S.GridLayout>
     </main>
-  )
+  );
 }

@@ -1,9 +1,7 @@
-'use client'
+'use client';
 
-import * as S from './styled'
+import * as S from './styled';
 
-const SearchSummary = () => (
-  <S.Container />
-)
+const SearchSummary = () => <S.Container />;
 
 export default SearchSummary;
