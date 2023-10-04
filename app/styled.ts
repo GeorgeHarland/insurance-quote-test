@@ -11,6 +11,6 @@ export const Main = styled.main`
 export const GridLayout = styled.div`
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 20px;
+  gap: 2rem;
   width: 100%;
 `;

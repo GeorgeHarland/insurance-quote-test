@@ -20,7 +20,9 @@ export const Container = styled.div`
 `;
 
 export const HeaderRow = styled.div`
+  display: flex;
   width: 100%;
+  justify-content: space-between;
   padding-bottom: 2rem;
   border-bottom: 3px solid ${colors.backgroundGrey};
 `;
@@ -28,18 +30,18 @@ export const HeaderRow = styled.div`
 export const CenterRow = styled.div`
   display: flex;
   width: 100%;
-  margin-top: 4rem;
+  margin-top: 2.5rem;
+`;
+
+export const TextSection = styled.div`
+  display: flex;
+  width: 100%;
+  padding-left: 4rem;
 `;
 
 export const TextColumn = styled.div`
   display: flex;
-  width: 100%;
-  gap: 0.6rem;
   flex-direction: column;
-`;
-
-export const TextRow = styled.div`
-  display: flex;
   justify-content: space-between;
   width: 100%;
 `;

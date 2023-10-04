@@ -4,6 +4,8 @@ A quick tech test built with Next.js, TypeScript, Styled Components.
 
 File structure includes /templates for the page template, /styles for colors/breakpoints/globalstyles, /data for page data (not everything uses this but that's the goal)
 
+Preppush script in package.json to handle prettier + lint
+
 ## Future Work
 
 I spent a few hours on the setup and initial components, but the next steps would be:
@@ -11,9 +13,6 @@ I spent a few hours on the setup and initial components, but the next steps woul
 - Make the site much more responsive with the breakpoints in /styles/index.ts, and reducing columns to rows
 - Have data flowing through the pages to the components (flexible for CMS)
 - Add typography to styles/index.ts to standardize fontSizes
-- Set up Next.js for styled components so page.module.css can be removed
-- ternarys to check for 'Covered' and if so, pass gold to styled component, otherwise use blue
-- add prettier, then a script (npm preppush) that runs prettier then eslint
 - add some tests, particularly for the PlansDetails component and checking the links work
 
 ## Setup

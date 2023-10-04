@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import * as S from './styled';
 import { getImage } from '@/utils';
+import Link from 'next/link';
 
 type WebsiteHeaderProps = {
   logo: string;
@@ -15,7 +16,9 @@ const WebsiteHeader = ({ ...data }: WebsiteHeaderProps) => (
   <S.HeaderContainer>
     <S.Spacer />
     <S.ImageWrapper>
-      <Image src={getImage(data.logo)} alt={data.alt} width={379} height={78} />
+      <Link href='/'>
+        <Image src={getImage(data.logo)} alt={data.alt} width={379} height={78} />
+      </Link>
     </S.ImageWrapper>
     <S.TextWrapper>
       <S.UpperRightText>{data.upperRightText}</S.UpperRightText>

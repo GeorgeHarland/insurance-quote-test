@@ -2,6 +2,7 @@ import DefaultTemplate from '@/templates/DefaultTemplate';
 import { GlobalStyle } from './../styles';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import StyledComponentsRegistry from '@/components/styledComponentsRegistry';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -19,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <GlobalStyle />
       <body className={inter.className}>
-        <DefaultTemplate>{children}</DefaultTemplate>
+        <StyledComponentsRegistry><DefaultTemplate>{children}</DefaultTemplate></StyledComponentsRegistry>
       </body>
     </html>
   );

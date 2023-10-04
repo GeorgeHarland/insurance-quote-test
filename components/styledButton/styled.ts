@@ -5,7 +5,7 @@ export const Button = styled.div`
   display: inline-block;
   background-color: ${colors.gold};
   color: white;
-  padding: 10px 20px;
+  padding: 10px 30px;
   border-radius: 25px;
   text-decoration: none;
   font-size: 16px;

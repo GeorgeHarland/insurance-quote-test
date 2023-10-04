@@ -8,10 +8,4 @@ export const RowContainer = styled.div`
   height: 100%;
   border-radius: 20px;
   gap: 2rem;
-  @media (max-width: 1080px) {
-    margin: 0 2rem;
-  }
-  @media (max-width: 580px) {
-    flex-direction: column;
-  }
 `;

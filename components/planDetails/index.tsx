@@ -22,18 +22,21 @@ const PlanDetails = ({ ...plan }: PlanDetailsProps) => (
     <S.HeaderRow>
       <Image src="" alt="" />
       <S.HeaderText>{`${plan.providerName}: ${plan.planName}`}</S.HeaderText>
+      <StyledButton label="Compare" link="/purchase-details" />
     </S.HeaderRow>
     <S.CenterRow>
-      <S.TextColumn>
-        <S.TextRow>
+      <S.TextSection>
+        <S.TextColumn>
           <S.BillText>Cancel for Covid-19 Sickness</S.BillText>
-          <S.CoveredText>Covered</S.CoveredText>
-        </S.TextRow>
-        <S.TextRow>
           <S.BillText>Trip Cancellation</S.BillText>
+          <S.BillText>Trip Interruption</S.BillText>
+        </S.TextColumn>
+        <S.TextColumn>
+          {plan.cancelForCovid === "covered" ? <S.CoveredText>{plan.cancelForCovid}</S.CoveredText> : <S.BillText>{plan.cancelForCovid}</S.BillText>}
           <S.BillText>{`$${plan.tripCancellation}`}</S.BillText>
-        </S.TextRow>
-      </S.TextColumn>
+          <S.BillText>{`$${plan.tripInterruption}`}</S.BillText>
+        </S.TextColumn>
+      </S.TextSection>
       <StyledButton label="Purchase" link="/purchase-details" />
     </S.CenterRow>
     <S.Footer></S.Footer>
