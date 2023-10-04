@@ -13,6 +13,7 @@ I spent a few hours on the setup and initial components, but the next steps woul
 - Add typography to styles/index.ts to standardize fontSizes
 - Set up Next.js for styled components so page.module.css can be removed
 - ternarys to check for 'Covered' and if so, pass gold to styled component, otherwise use blue
+- add prettier, then a script (npm preppush) that runs prettier then eslint
 
 ## Setup
 
