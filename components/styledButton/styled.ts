@@ -10,6 +10,7 @@ export const Button = styled.div`
   text-decoration: none;
   font-size: 16px;
   transition: background-color 0.3s ease;
+  cursor: pointer;
 
   &:hover {
     background-color: ${colors.goldBorder};

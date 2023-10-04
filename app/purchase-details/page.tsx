@@ -1,5 +1,7 @@
+import SelectedProductSummary from '@/components/selectedProductSummary';
+
 const PurchaseDetails = () => {
-  return <div></div>;
+  return <SelectedProductSummary />;
 };
 
 export default PurchaseDetails;

@@ -16,8 +16,13 @@ const WebsiteHeader = ({ ...data }: WebsiteHeaderProps) => (
   <S.HeaderContainer>
     <S.Spacer />
     <S.ImageWrapper>
-      <Link href='/'>
-        <Image src={getImage(data.logo)} alt={data.alt} width={379} height={78} />
+      <Link href="/">
+        <Image
+          src={getImage(data.logo)}
+          alt={data.alt}
+          width={379}
+          height={78}
+        />
       </Link>
     </S.ImageWrapper>
     <S.TextWrapper>

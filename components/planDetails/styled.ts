@@ -11,12 +11,6 @@ export const Container = styled.div`
   height: 100%;
   border-radius: 20px;
   padding: 1.5rem;
-  @media (max-width: 1080px) {
-    margin: 0 2rem;
-  }
-  @media (max-width: 580px) {
-    flex-direction: column;
-  }
 `;
 
 export const HeaderRow = styled.div`

@@ -6,10 +6,11 @@ File structure includes /templates for the page template, /styles for colors/bre
 
 Preppush script in package.json to handle prettier + lint
 
+useContext to handle state between pages
+
 ## Future Work
 
 I spent a few hours on the setup and initial components, but the next steps would be:
-- Add a useContext to pull data (in useStates) between pages
 - Make the site much more responsive with the breakpoints in /styles/index.ts, and reducing columns to rows
 - Have data flowing through the pages to the components (flexible for CMS)
 - Add typography to styles/index.ts to standardize fontSizes
