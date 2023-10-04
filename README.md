@@ -14,6 +14,7 @@ I spent a few hours on the setup and initial components, but the next steps woul
 - Set up Next.js for styled components so page.module.css can be removed
 - ternarys to check for 'Covered' and if so, pass gold to styled component, otherwise use blue
 - add prettier, then a script (npm preppush) that runs prettier then eslint
+- add some tests, particularly for the PlansDetails component and checking the links work
 
 ## Setup
 
