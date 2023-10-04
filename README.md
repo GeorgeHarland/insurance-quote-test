@@ -23,3 +23,6 @@ I spent a few hours on the setup and initial components, but the next steps woul
 - run "npm install"
 - use "npm run dev" to run the development server
 - visit 'http://localhost:3000'
+
+![image](https://github.com/GeorgeHarland/insurance-quote-test/assets/37070520/6dbfed22-6f30-4814-b44a-2e61cc25e5c2)
+
